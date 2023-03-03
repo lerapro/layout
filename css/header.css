@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+section{
+    background-image: url("../img/background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+
+.header-section{
+    /* width: 177px; */
+    height: 173px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 18px;
+
+}
+
+.logo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    
+
+    width: 177px;
+}
+
+.header-item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.9859px;
+    line-height: 17px;
+}
+
+.header-items :nth-child(2){
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 11px 15px;
+}
+
+.header-items :nth-child(1) {
+    padding-top: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 22px;
+}
+
+.title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.041px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+.description-text{
+    margin-top: 12px;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.0246px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.btn-container{
+    margin-top: 30px;
+    padding: 13px 38px;
+    background-color: #FF4E50;
+    border: none;
+    border-radius: 25px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.9987px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
